@@ -1,0 +1,14 @@
+<div class="page_title">Login App Test</div>
+<div class="login_form">
+    <form (ngSubmit)="onSubmit(login_form)" #login_form="ngForm">
+        <label for="person_name">Username:</label><br />
+        <input type="text" class="person_name" name="person_name" ngModel /><br />
+        <label for="person_password">Password:</label><br />
+        <input type="password" class="person_password" name="person_password" ngModel /><br/>
+        <br />
+        <input type="submit" class="submit" value="Login" />
+    </form>
+    <div class="message_div">
+        
+    </div>
+</div>

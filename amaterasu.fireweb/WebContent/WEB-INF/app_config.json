@@ -1,0 +1,1 @@
+{"mySqlConnectionString":"jdbc:mysql://localhost:3306/<insert instance>","mySqlUsername":"<insert username>","mySqlPassword":"<insert password>","mySqlDriver":"com.mysql.jdbc.Driver"}

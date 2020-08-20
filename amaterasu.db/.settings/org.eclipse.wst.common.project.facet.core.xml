@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faceted-project>
+  <runtime name="Apache Tomcat v8.0"/>
+  <fixed facet="jst.utility"/>
+  <fixed facet="jpt.jpa"/>
+  <fixed facet="java"/>
+  <installed facet="jpt.jpa" version="2.2"/>
+  <installed facet="jst.utility" version="1.0"/>
+  <installed facet="java" version="11"/>
+</faceted-project>

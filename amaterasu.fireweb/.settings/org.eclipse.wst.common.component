@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+                
+    
+    
+    <wb-module deploy-name="amaterasu.fireweb-0.0.1-SNAPSHOT">
+                        
+        
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+                                
+        
+        
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                                
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+                
+        <dependent-module archiveName="amaterasu.db-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/amaterasu.db/amaterasu.db">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                                
+        
+        
+        <property name="context-root" value="amaterasu.fireweb"/>
+                                
+        
+        
+        <property name="java-output-path" value="/amaterasu.fireweb/build/classes"/>
+                            
+    
+    
+    </wb-module>
+            
+
+
+</project-modules>
